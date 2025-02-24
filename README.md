@@ -1,6 +1,6 @@
 # LinkedIn Saved Links Extractor
 
-Chrome extension for bulk coping all links from your saved items on LinkedIn. Works for posts, articles, courses and jobs.
+Chrome extension for bulk copying all links from your saved items on LinkedIn. Works for posts, articles, courses and jobs.
 
 ## How to use
 
