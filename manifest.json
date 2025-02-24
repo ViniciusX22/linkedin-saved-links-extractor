@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Saved Links Extractor",
+  "version": "1.0",
+  "description": "Automatically copies LinkedIn's saved posts links to clipboard.",
+  "permissions": ["clipboardWrite", "scripting"],
+  "host_permissions": ["https://www.linkedin.com/*"],
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": [
+        "constants.js",
+        "models/LinkExtractor.js",
+        "models/CopyButton.js",
+        "content.js"
+      ]
+    }
+  ]
+}

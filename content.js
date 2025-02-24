@@ -1,0 +1,1 @@
+new CopyButton().setup();
